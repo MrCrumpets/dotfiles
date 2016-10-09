@@ -151,6 +151,9 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
+" prevent python comments from starting at beginning of line
+" http://stackoverflow.com/questions/2063175/comments-go-to-start-of-line-in-the-insert-mode-in-vim
+au! FileType python setl nosmartindent
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
