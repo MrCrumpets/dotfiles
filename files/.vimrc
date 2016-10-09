@@ -1,7 +1,6 @@
 "vim-plug
 "
 call plug#begin()
-Plug 'Valloric/YouCompleteMe'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
@@ -11,6 +10,7 @@ Plug 'SirVer/ultisnips'
 Plug 'bling/vim-airline'
 Plug 'kien/ctrlp.vim'
 Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'scrooloose/syntastic'
 call plug#end()
 
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
