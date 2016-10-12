@@ -14,10 +14,6 @@ function symlinkifne {
     ln -sv .dotfiles/files/$1 ~/$1
 }
 
-function testecho {
-    echo $1
-}
-
 GLOBIGNORE=".:.."
 
 if [[ ! -e ~/.dotfiles_backup ]]; then
