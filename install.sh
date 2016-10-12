@@ -25,5 +25,6 @@ if [[ ! -e ~/.dotfiles_backup ]]; then
 fi
 
 for file in ~/.dotfiles/files/*; do
+    echo $file
     symlinkifne "${file##*/}"
 done

@@ -108,7 +108,6 @@ syntax enable
 " set guifont=Ubuntu\ Mono
 let g:airline_powerline_fonts=1
 
-set term=xterm-256color
 set encoding=utf8
 set termencoding=utf-8
 set background=dark
